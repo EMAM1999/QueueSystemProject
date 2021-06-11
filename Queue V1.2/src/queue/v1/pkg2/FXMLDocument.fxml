@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.CubicCurve?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="674.0" prefWidth="700.0" style="-fx-background-color: #003344;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="queue.v1.pkg2.FXMLDocumentController">
+    <children>
+      <CubicCurve controlX1="-213.11032104492188" controlX2="281.2230224609375" controlY1="-375.11029052734375" controlY2="-73.77694702148438" endX="-475.0000305175781" endY="-438.0" fill="#008666" layoutX="473.0" layoutY="438.0" startX="225.00006103515625" startY="-438.0" stroke="WHITE" strokeDashOffset="1.0" />
+      <Group id="1" layoutX="82.0" layoutY="191.0" onMouseEntered="#moodEntered" onMouseExited="#moodExited">
+         <children>
+            <Label id="1" alignment="CENTER" onMouseReleased="#moodChoosed" prefHeight="102.0" prefWidth="179.0" style="-fx-background-color: #50afff;" text="M/M/1" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <Reflection bottomOpacity="0.1" fraction="1.0" />
+               </effect>
+            </Label>
+            <Text id="mm1" layoutX="129.0" layoutY="25.0" onMousePressed="#help" strokeType="OUTSIDE" strokeWidth="0.0" text="??" textAlignment="CENTER" wrappingWidth="50.0">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Text>
+         </children>
+      </Group>
+      <Group id="2" layoutX="440.0" layoutY="190.0" onMouseEntered="#moodEntered" onMouseExited="#moodExited">
+         <children>
+            <Label id="2" alignment="CENTER" onMouseReleased="#moodChoosed" prefHeight="102.0" prefWidth="179.0" style="-fx-background-color: #50afff;" text="M/M/1/K" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <Reflection bottomOpacity="0.1" fraction="1.0" />
+               </effect>
+            </Label>
+            <Text id="mm1k" layoutX="129.0" layoutY="25.0" onMousePressed="#help" strokeType="OUTSIDE" strokeWidth="0.0" text="??" textAlignment="CENTER" wrappingWidth="50.0">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Text>
+         </children>
+      </Group>
+      <Group id="3" layoutX="82.0" layoutY="438.0" onMouseEntered="#moodEntered" onMouseExited="#moodExited">
+         <children>
+            <Label id="3" alignment="CENTER" onMouseReleased="#moodChoosed" prefHeight="102.0" prefWidth="179.0" style="-fx-background-color: #50afff;" text="M/M/C" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <Reflection bottomOpacity="0.1" fraction="1.0" />
+               </effect>
+            </Label>
+            <Text id="mmc" layoutX="129.0" layoutY="25.0" onMousePressed="#help" strokeType="OUTSIDE" strokeWidth="0.0" text="??" textAlignment="CENTER" wrappingWidth="50.0">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Text>
+         </children>
+      </Group>
+      <Group id="4" layoutX="440.0" layoutY="438.0" onMouseEntered="#moodEntered" onMouseExited="#moodExited">
+         <children>
+            <Label id="4" alignment="CENTER" onMouseReleased="#moodChoosed" prefHeight="102.0" prefWidth="179.0" style="-fx-background-color: #50afff;" text="M/M/C/K" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <Reflection bottomOpacity="0.1" fraction="1.0" />
+               </effect>
+            </Label>
+            <Text id="mmck" layoutX="129.0" layoutY="25.0" onMousePressed="#help" strokeType="OUTSIDE" strokeWidth="0.0" text="??" textAlignment="CENTER" wrappingWidth="50.0">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Text>
+         </children>
+      </Group>
+      <Group id="0" layoutX="261.0" layoutY="310.0" onMouseEntered="#moodEntered" onMouseExited="#moodExited">
+         <children>
+            <Label id="0" alignment="CENTER" onMouseReleased="#moodChoosed" prefHeight="102.0" prefWidth="179.0" style="-fx-background-color: #50afff;" text="D/D/1/K-1" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <Reflection bottomOpacity="0.1" fraction="1.0" />
+               </effect>
+            </Label>
+            <Text id="dd" layoutX="129.0" layoutY="25.0" onMousePressed="#help" strokeType="OUTSIDE" strokeWidth="0.0" text="??" textAlignment="CENTER" wrappingWidth="50.0">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Text>
+         </children>
+      </Group>
+      <Group fx:id="helpGroup" layoutX="105.0" layoutY="204.0" visible="false">
+         <children>
+            <Label fx:id="helpLabel" focusTraversable="false" lineSpacing="10.0" prefHeight="336.0" prefWidth="492.0" style="-fx-background-color: #f0e0af;" wrapText="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <padding>
+                  <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
+               </padding>
+            </Label>
+            <Label alignment="CENTER" layoutX="447.0" layoutY="5.0" onMouseReleased="#closeHelp" prefHeight="31.0" prefWidth="40.0" text="X" textAlignment="CENTER" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+         </children>
+      </Group>
+      <Text layoutX="157.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Progzilla Team" textAlignment="CENTER" visible="false" wrappingWidth="386.6708984375">
+         <font>
+            <Font name="Comic Sans MS Bold" size="50.0" />
+         </font>
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="BLACK" offset="0.007246376811594203" />
+                  <Stop color="#783b04" offset="0.492540494458653" />
+                  <Stop color="BLACK" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+    </children>
+</AnchorPane>
